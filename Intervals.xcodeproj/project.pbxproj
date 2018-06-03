@@ -17,6 +17,7 @@
 		E39BC86820C444F6008DB49C /* SetUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E39BC86720C444F6008DB49C /* SetUpViewController.m */; };
 		E39BC86B20C44573008DB49C /* RunViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E39BC86A20C44573008DB49C /* RunViewController.m */; };
 		E39BC86E20C448B9008DB49C /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E39BC86D20C448B9008DB49C /* DataManager.m */; };
+		E39BC87020C4512B008DB49C /* beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E39BC86F20C4512A008DB49C /* beep.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		E39BC86A20C44573008DB49C /* RunViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunViewController.m; sourceTree = "<group>"; };
 		E39BC86C20C448B9008DB49C /* DataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
 		E39BC86D20C448B9008DB49C /* DataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		E39BC86F20C4512A008DB49C /* beep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beep.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				E39BC84C20C443A0008DB49C /* IntervalsTests */,
 				E39BC85720C443A0008DB49C /* IntervalsUITests */,
 				E39BC83220C4439E008DB49C /* Products */,
+				E39BC86F20C4512A008DB49C /* beep.mp3 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -247,6 +250,7 @@
 			files = (
 				E39BC84120C443A0008DB49C /* LaunchScreen.storyboard in Resources */,
 				E39BC83E20C443A0008DB49C /* Assets.xcassets in Resources */,
+				E39BC87020C4512B008DB49C /* beep.mp3 in Resources */,
 				E39BC83C20C4439E008DB49C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
