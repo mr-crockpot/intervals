@@ -15,6 +15,10 @@
 
 @implementation SetUpViewController
 
+-(BOOL)prefersStatusBarHidden {
+    return YES;
+}
+
 - (void)viewDidLoad {
     
     for(UIViewController *tab in  self.tabBarController.viewControllers)

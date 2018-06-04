@@ -14,6 +14,28 @@
 
 @implementation RunViewController
 
+-(void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:
+
+    (id<UIViewControllerTransitionCoordinator>)coordinator {
+    // will execute before rotation
+    
+    [coordinator animateAlongsideTransition:^(id  _Nonnull context) {
+        
+        // will execute during rotation
+        
+    } completion:^(id  _Nonnull context) {
+        NSInteger height = self.labelTimer.frame.size.height;
+        self.labelTimer.font = [UIFont fontWithName:@"Helvetica" size:height*.9];
+        // will execute after rotation
+        
+    }];
+}
+
+
+-(BOOL)prefersStatusBarHidden {
+    return YES;
+}
+
 - (void)viewDidLoad {
     
     for(UIViewController *tab in  self.tabBarController.viewControllers)
@@ -74,6 +96,10 @@
 }
 
 -(void)viewDidAppear:(BOOL)animated {
+    
+    NSInteger height = self.labelTimer.frame.size.height;
+    self.labelTimer.font = [UIFont fontWithName:@"Helvetica" size:height*.9];
+    
     _running = NO;
     
     _arrTimes = [[NSMutableArray alloc] initWithArray:[DataManager getArrayForKey:_keyForTimes]];
