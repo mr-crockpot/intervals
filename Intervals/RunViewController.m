@@ -25,7 +25,7 @@
         
     } completion:^(id  _Nonnull context) {
         NSInteger height = self.labelTimer.frame.size.height;
-        self.labelTimer.font = [UIFont fontWithName:@"Helvetica" size:height*.9];
+        self.labelTimer.font = [UIFont fontWithName:@"Helvetica" size:height*0.75];
         // will execute after rotation
         
     }];
@@ -98,7 +98,7 @@
 -(void)viewDidAppear:(BOOL)animated {
     
     NSInteger height = self.labelTimer.frame.size.height;
-    self.labelTimer.font = [UIFont fontWithName:@"Helvetica" size:height*.9];
+    self.labelTimer.font = [UIFont fontWithName:@"Helvetica" size:height*0.75];
     
     _running = NO;
     
@@ -238,7 +238,7 @@
     _player= [[AVAudioPlayer alloc]initWithContentsOfURL:url error:&error];
     
     [_player setNumberOfLoops:0];
-    [_player setVolume:5];
+    [_player setVolume:10];
     [_player play];
 }
 

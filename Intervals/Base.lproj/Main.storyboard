@@ -28,19 +28,19 @@
                                 </connections>
                             </pickerView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="# of Sets" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MQa-WJ-UJ7">
-                                <rect key="frame" x="9.5" y="-249" width="94" height="598"/>
+                                <rect key="frame" x="0.5" y="-215.5" width="112.5" height="598"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="highlightedColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time Per Set" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6SP-Ea-1zL">
-                                <rect key="frame" x="140.5" y="-249" width="94" height="598"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time Per Set" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6SP-Ea-1zL">
+                                <rect key="frame" x="131.5" y="-215.5" width="112.5" height="598"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rest Time" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="207-eT-6xc">
-                                <rect key="frame" x="290.5" y="-249" width="94" height="598"/>
+                                <rect key="frame" x="281.5" y="-215.5" width="112.5" height="598"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -49,7 +49,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
-                                    <navigationItem title="Title" id="PVe-ad-Ude">
+                                    <navigationItem title="Setup" id="PVe-ad-Ude">
                                         <barButtonItem key="leftBarButtonItem" title="Add" id="yRu-70-ZlZ">
                                             <connections>
                                                 <action selector="btnAddPressed:" destination="2J0-1p-Va4" id="59U-0i-LM2"/>
@@ -93,7 +93,7 @@
                         <constraints>
                             <constraint firstItem="207-eT-6xc" firstAttribute="centerX" secondItem="MRl-L4-vwh" secondAttribute="centerX" multiplier="1.8" id="3OS-RM-iS5"/>
                             <constraint firstItem="207-eT-6xc" firstAttribute="width" secondItem="MQa-WJ-UJ7" secondAttribute="width" id="6sd-pV-XzO"/>
-                            <constraint firstItem="MQa-WJ-UJ7" firstAttribute="width" secondItem="d1x-fa-AiE" secondAttribute="width" multiplier="0.25" id="AP6-tF-Wuu"/>
+                            <constraint firstItem="MQa-WJ-UJ7" firstAttribute="width" secondItem="d1x-fa-AiE" secondAttribute="width" multiplier="0.3" id="AP6-tF-Wuu"/>
                             <constraint firstItem="207-eT-6xc" firstAttribute="height" secondItem="MQa-WJ-UJ7" secondAttribute="height" id="F5o-vF-U4I"/>
                             <constraint firstItem="gyd-ze-Nqy" firstAttribute="width" secondItem="loP-iP-Hxe" secondAttribute="width" id="HYv-1k-6dJ"/>
                             <constraint firstItem="207-eT-6xc" firstAttribute="centerY" secondItem="MQa-WJ-UJ7" secondAttribute="centerY" id="JvN-qu-W8u"/>
@@ -105,7 +105,7 @@
                             <constraint firstItem="6SP-Ea-1zL" firstAttribute="centerX" secondItem="MRl-L4-vwh" secondAttribute="centerX" id="e0G-Hm-sc2"/>
                             <constraint firstItem="loP-iP-Hxe" firstAttribute="centerX" secondItem="d1x-fa-AiE" secondAttribute="centerX" id="fAH-xt-brb"/>
                             <constraint firstItem="gyd-ze-Nqy" firstAttribute="top" secondItem="loP-iP-Hxe" secondAttribute="bottom" constant="10" id="hpE-R6-03X"/>
-                            <constraint firstItem="MQa-WJ-UJ7" firstAttribute="centerY" secondItem="MRl-L4-vwh" secondAttribute="centerY" multiplier="0.15" id="lAu-Sr-2a2"/>
+                            <constraint firstItem="MQa-WJ-UJ7" firstAttribute="centerY" secondItem="MRl-L4-vwh" secondAttribute="centerY" multiplier="0.25" id="lAu-Sr-2a2"/>
                             <constraint firstItem="loP-iP-Hxe" firstAttribute="height" secondItem="MRl-L4-vwh" secondAttribute="height" multiplier="0.3" id="qBK-Vd-ifV"/>
                             <constraint firstItem="MQa-WJ-UJ7" firstAttribute="centerX" secondItem="MRl-L4-vwh" secondAttribute="centerX" multiplier="0.3" id="wma-80-O8j"/>
                             <constraint firstItem="loP-iP-Hxe" firstAttribute="width" secondItem="MRl-L4-vwh" secondAttribute="width" id="yVa-03-qY1"/>
@@ -142,7 +142,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nb2-1v-o5u">
-                                <rect key="frame" x="281" y="19" width="94" height="89.5"/>
+                                <rect key="frame" x="272" y="19" width="112.5" height="89.5"/>
                                 <state key="normal" title="Pause"/>
                                 <connections>
                                     <action selector="btnPausePressed:" destination="gbl-I2-YuI" eventType="touchUpInside" id="zHM-4f-PBo"/>
@@ -170,14 +170,14 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vpj-VJ-Pyg">
-                                <rect key="frame" x="0.0" y="19" width="94" height="89.5"/>
+                                <rect key="frame" x="-9.5" y="19" width="113" height="89.5"/>
                                 <state key="normal" title="Start"/>
                                 <connections>
                                     <action selector="btnStartPressed:" destination="gbl-I2-YuI" eventType="touchUpInside" id="kJS-sm-JXW"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Round" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LlQ-Lv-qBg">
-                                <rect key="frame" x="140" y="19" width="94" height="89.5"/>
+                                <rect key="frame" x="131" y="19" width="112.5" height="89.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -188,7 +188,7 @@
                             <constraint firstItem="vpj-VJ-Pyg" firstAttribute="centerX" secondItem="mVP-8z-N9Y" secondAttribute="centerX" multiplier="0.25" id="2Xa-EO-Dsp"/>
                             <constraint firstItem="LlQ-Lv-qBg" firstAttribute="width" secondItem="vpj-VJ-Pyg" secondAttribute="width" id="7CJ-bM-MMT"/>
                             <constraint firstItem="d4n-6t-nu0" firstAttribute="centerX" secondItem="mVP-8z-N9Y" secondAttribute="centerX" multiplier="1.8" id="Bbf-Jk-rK2"/>
-                            <constraint firstItem="vpj-VJ-Pyg" firstAttribute="width" secondItem="mVP-8z-N9Y" secondAttribute="width" multiplier="0.25" id="BqZ-hK-ZsG"/>
+                            <constraint firstItem="vpj-VJ-Pyg" firstAttribute="width" secondItem="mVP-8z-N9Y" secondAttribute="width" multiplier="0.3" id="BqZ-hK-ZsG"/>
                             <constraint firstItem="A9e-X0-B9A" firstAttribute="width" secondItem="sU5-cE-XGd" secondAttribute="width" multiplier="0.25" id="DBs-oR-mQn"/>
                             <constraint firstItem="GDq-6d-ZSb" firstAttribute="top" secondItem="vpj-VJ-Pyg" secondAttribute="bottom" constant="10" id="HPt-zc-voN"/>
                             <constraint firstItem="Nb2-1v-o5u" firstAttribute="height" secondItem="LlQ-Lv-qBg" secondAttribute="height" id="IgA-Za-Hd1"/>
